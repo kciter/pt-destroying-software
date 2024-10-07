@@ -1,19 +1,21 @@
 ---
 title: 표지
 theme: neat
-layout: intro
+layout: cover
 colorSchema: light
+coverTitle: 소프트웨어 파괴의 미학
+coverAuthor: 이선협 / @kciter
+coverLogo: /logo.png
 ---
 
-# 취업 대비 코딩 테스트 특강
-- - -
-### 이선협 / @kciter
+<img src="/avatar2.png" width="200px" style="margin-top: 110px" />
+
 
 ---
 title: 발표자 소개
 layout: two-cols
 headerEnable: true
-headerTitle: Kotlin Script 활용하기
+headerTitle: 소프트웨어 파괴의 미학
 colorSchema: dark
 ---
 
