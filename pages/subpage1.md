@@ -41,6 +41,7 @@ headerTitle: 소프트웨어 파괴의 미학
 * 추상화 수준
 * 급변하는 비즈니스
 * 요구사항의 변화
+* 올바른 구현 여부
 
 <img src="/thinking-face.webp" width="180px" style="position: absolute; right: 40px; bottom: 40px;" />
 
@@ -52,7 +53,7 @@ headerTitle: 소프트웨어 파괴의 미학
 
 ::left::
 
-# 개발팀 내에서의 애매모호함
+# 구현에서의 애매모호함
 
 * 서로 다른 지식 수준
 * 도메인에 대한 이해
@@ -71,9 +72,38 @@ headerEnable: true
 headerTitle: 소프트웨어 파괴의 미학
 ---
 
-<img src="/chaos.webp" width="240px" />
+# 애매모호함으로 인해 확신할 수 없다
 
-**비즈니스라는 괴물**
+## 그렇기 때문에 우리는 <danger>삭제할 수 밖에 없는 코드</danger>를 만들게 된다
+
+---
+layout: default
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+# 소프트웨어를 파괴하는 두 가지
+
+* 기능의 삭제 (Deletion) / Pivot
+* 기존 기능을 다시 만드는 것 (Replacement) / Refactoring
+
+---
+layout: center
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+# 어째서 이런 일이 발생하는걸까?
+
+---
+layout: center
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+<!-- <img src="/chaos.webp" width="240px" style="margin: 0 auto" /> -->
+
+# **첫 번째는 비즈니스라는 괴물이 존재하기 때문!**
 
 ---
 layout: default
@@ -91,7 +121,60 @@ headerTitle: 소프트웨어 파괴의 미학
 * 따라서 개발자의 예측은 높은 확률로 틀릴 수밖에 없다.
   * 확장에 대한 대응이 무의미해질 수 있다.
   * 아키텍처가 적합하지 않아질 수 있다.
+  * 공든 탑이 무너지는 슬픔...
   * <danger>지우는 것조차 어려워질 수 있다.</danger>
+
+---
+layout: center
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+<!-- <img src="/chaos.webp" width="240px" style="margin: 0 auto" /> -->
+
+# **두 번째는 개발자 개인의 지식과 경험의 문제**
+
+---
+layout: default
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+# 지식과 경험의 문제
+
+* 리팩터링을 하기에 가장 좋은 시기는 어떻게 고쳐야할지 정확하게 알 때이다.
+  * 리팩터링은 지식과 경험에 기반한 <accent>기술</accent>이다.
+  * 지식이 없다면 어떻게 고쳐야할지 알 수 없다.
+  * 경험이 없다면 어떻게 접근해야할지 알 수 없다.
+* 아이러니하게도 정확한 지식과 경험이 있다면 시간이 부족하더라도 처음부터 좋은 코드가 나온다.
+  * 리팩터링은 구현하던 시기에 지식과 경험이 부족했기 때문에 해야하는 기술부채
+
+---
+layout: center
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+# 이 둘을 피할 수 있을까?
+
+---
+layout: center
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+# 결국 <danger>파괴</danger>는 항상 발생하는 것...
+
+## 그런데 파괴는 안좋은 것일까?
+
+---
+layout: center
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+<img src="/ramen.jpg" width="220px" />
+
 
 ---
 layout: center
@@ -102,6 +185,30 @@ headerTitle: 소프트웨어 파괴의 미학
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1FPsJ-if2RU?si=00mBh99JDY7EMgi7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Greg Young - The Art of Destroying Software**
+
+---
+layout: center
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+<img src="/five-lines-of-code.jpeg" width="240px" />
+
+---
+layout: center
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+# 이런 의견이 나오는 것은 자연스러운 일
+
+---
+layout: center
+headerEnable: true
+headerTitle: 소프트웨어 파괴의 미학
+---
+
+<img src="/myth.png" width="540px" style="margin: 0 auto;" />
 
 ---
 layout: default
@@ -116,9 +223,3 @@ headerTitle: 소프트웨어 파괴의 미학
   * 일주일치 작업이 어느정도인가?
   * 천 줄 이상의 코드를 배포해야 한다면?
   * 마이크로서비스 아키텍처가 아니라면?
-* 아이디어는 좋은 것 같다
-  * 뭔가 고민해보면 괜찮은 생각이 나올지도 모르겠다.
-  * 확장이 아닌 잘 지울 수 있게 만들어보자
-  * 필요하지 않은 것은 다 지우자
-  * <accent>발상의 전환</accent>
-

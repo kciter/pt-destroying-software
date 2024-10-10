@@ -52,18 +52,6 @@ src: ./pages/subpage2.md
 ---
 
 ---
-src: ./pages/subpage3.md
----
-
----
-src: ./pages/subpage4.md
----
-
----
-src: ./pages/subpage5.md
----
-
----
 title: 마치며
 layout: center
 ---
