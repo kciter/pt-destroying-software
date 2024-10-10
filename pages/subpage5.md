@@ -1,7 +1,7 @@
 ---
-title: 파괴 가능성
+title: 마치며
 layout: section
-subject: 파괴 가능성
+subject: 마치며
 ---
 
 ---

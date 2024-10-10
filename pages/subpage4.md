@@ -1,7 +1,7 @@
 ---
-title: 파괴 가능성
+title: 아키텍처 파괴
 layout: section
-subject: 파괴 가능성
+subject: 아키텍처 파괴
 ---
 
 ---
