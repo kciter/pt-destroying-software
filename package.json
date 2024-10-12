@@ -1,9 +1,9 @@
 {
-  "name": "pt-js-coding-test",
+  "name": "pt-destroying-software",
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /pt-js-coding-test",
+    "build": "slidev build --base /pt-destroying-software",
     "dev": "slidev",
     "export": "slidev export"
   },
