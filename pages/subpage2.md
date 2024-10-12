@@ -153,7 +153,7 @@ headerEnable: true
 headerTitle: 소프트웨어 파괴의 미학
 ---
 
-<img src="destructible.png" width="400px" />
+<img src="/destructible.png" width="400px" />
 
 ---
 layout: default
