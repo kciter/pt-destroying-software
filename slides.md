@@ -5,7 +5,7 @@ layout: cover
 colorSchema: light
 coverTitle: 소프트웨어 파괴의 미학
 coverAuthor: 이선협 / @kciter
-coverLogo: /logo.png
+coverLogo: /pt-destroying-software/logo.png
 ---
 
 <img src="/avatar2.png" width="200px" style="margin-top: 110px" />
