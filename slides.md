@@ -34,13 +34,6 @@ colorSchema: dark
   <img src="/avatar.png" style="border-radius: 4px; display: block; margin-top: -100px; width: 280px; height: 280px; box-reflect: below 0px linear-gradient(transparent, rgba(0,0,0,0.1))" />
 </div>
 
-<!--
-안녕하세요. 이선협입니다.
-저는 주식회사 코발트에서 CTO로 재직 중인 올해로 11년차인 개발자입니다.
-평소 취미로 블로그 아티클을 작성하거나 오픈 소스 코드를 작성하고 있습니다.
-만약 저에 대해 더 궁금하시다면 슬라이드 링크를 참조해주세요.
--->
-
 ---
 src: ./pages/subpage1.md
 ---
