@@ -10,7 +10,7 @@ headerEnable: true
 headerTitle: 소프트웨어 파괴의 미학
 ---
 
-<img src="bibim.jpg" width="320px" />
+<img src="/bibim.jpg" width="320px" />
 
 <spacer gap="20" />
 
